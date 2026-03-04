@@ -20,14 +20,13 @@
 
 <br/><br/>
 
-<!-- ✅ TYPING ANIMATION — Triple fallback using 3 different services -->
-<!-- Primary -->
-<img src="https://api.danielalas.com/typewriter/?lines=🚀+Full+Stack+Developer;⚡+React+|+Next.js+|+Node.js+|+TypeScript;🔥+From+Database+to+Pixel-Perfect+UI;🌍+Alexandria,+Egypt+🇪🇬;💡+Building+Real+Products+That+Matter;🎯+Always+Learning+|+Always+Shipping&font=JetBrains+Mono&weight=700&size=26&color=00FFCC&background=0d1117&center=true&width=860&height=65" alt="Mounir Amir - Full Stack Developer"/>
+<!-- ✅ SELF-HOSTED TYPING SVG — upload typing_hero.svg to your repo root -->
+<img src="https://raw.githubusercontent.com/Eng-Mounir/Eng-Mounir/main/typing_hero.svg" width="860" alt="Mounir Amir — Full Stack Developer"/>
 
 <br/><br/>
 
-<!-- ✅ CODE TYPING LINE — secondary service  -->
-<img src="https://readme-svg-typing-generator.vercel.app/api?lines=→+npx+create-next-app+awesome-project+✅;→+npm+install+express+mongoose+✅;→+git+commit+-m+'feat:+ship+new+feature'+✅;→+const+[state,+setState]+=+useState(null);→+app.listen(3000,+()=>+'🚀+Server+Running!');→+console.log('Hello+from+Alexandria!+🇪🇬')&font=Fira+Code&weight=600&size=15&color=00FF41&background=0D1117&center=true&width=640&height=42&animation=typing" alt="code typing"/>
+<!-- ✅ SELF-HOSTED CODE TYPING SVG — upload typing_code.svg to your repo root -->
+<img src="https://raw.githubusercontent.com/Eng-Mounir/Eng-Mounir/main/typing_code.svg" width="680" alt="code typing"/>
 
 <br/><br/>
 
@@ -66,23 +65,20 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 <!-- ╔══════════════════════════════════╗ -->
-<!-- ║   🆕 ANIMATED VS CODE ABOUT ME  ║ -->
+<!-- ║   ✅ ANIMATED VS CODE ABOUT ME   ║ -->
 <!-- ╚══════════════════════════════════╝ -->
 
 ## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="35"/> About Me
 
 <div align="center">
 
-<!-- ✅ SELF-HOSTED: Pure SVG with CSS animations — works 100% on GitHub -->
-<!-- Upload about_me.svg to your Eng-Mounir repo and use raw link below  -->
-<!-- After uploading: replace URL with your raw github URL                 -->
-<img src="https://raw.githubusercontent.com/Eng-Mounir/Eng-Mounir/main/about_me.svg" width="100%" alt="About Mounir — animated VS Code style"/>
+<!-- ✅ SELF-HOSTED — upload about_me.svg to your repo root -->
+<img src="https://raw.githubusercontent.com/Eng-Mounir/Eng-Mounir/main/about_me.svg" width="100%" alt="About Mounir"/>
 
 </div>
 
 <br/>
 
-<!-- QUICK STATS ROW -->
 <div align="center">
 
 <img src="https://img.shields.io/badge/⚡_Projects-15%2B-00ffcc?style=for-the-badge&labelColor=0d1117"/>
@@ -94,14 +90,13 @@
 
 <br/>
 
-<!-- WHAT I DO TABLE -->
 <div align="center">
 
 | 🎨 Frontend | ⚙️ Backend | 🗄️ Database | 🔧 Tools |
 |:-----------:|:----------:|:-----------:|:--------:|
 | React & Next.js | Node.js & Express | MySQL & MongoDB | Git & GitHub |
 | Tailwind & Bootstrap | RESTful APIs | Schema Design | VS Code & Vite |
-| HeroUI & Shadcn | MVC Architecture | Query Optimization | Postman & npm |
+| HeroUI & Shadcn UI | MVC Architecture | Query Optimization | Postman & npm |
 | Redux State Mgmt | EJS Templating | Data Modeling | Agile Workflow |
 
 </div>
@@ -110,7 +105,7 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 <!-- ╔══════════════════════════════════╗ -->
-<!-- ║    LIVE CODING ANIMATION         ║ -->
+<!-- ║       CODING ANIMATION           ║ -->
 <!-- ╚══════════════════════════════════╝ -->
 <div align="center">
 
@@ -173,18 +168,15 @@
 
 <div align="center">
 
-<!-- ✅ WORKING: github-readme-stats-fast -->
 <img width="49%" src="https://github-readme-stats-fast.vercel.app/api?username=Eng-Mounir&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00ffcc&icon_color=00ffcc&text_color=c9d1d9&border_radius=15"/>
 <img width="49%" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Eng-Mounir&layout=compact&langs_count=10&hide_border=true&bg_color=0d1117&title_color=00ffcc&text_color=c9d1d9&border_radius=15"/>
 
 <br/>
 
-<!-- ✅ WORKING: streak stats -->
 <img width="65%" src="https://github-readme-streak-stats-eight.vercel.app/?user=Eng-Mounir&theme=tokyonight&hide_border=true&background=0d1117&ring=00ffcc&fire=ff6b6b&currStreakLabel=00ffcc&sideLabels=00ffcc&dates=888888&border_radius=15"/>
 
 <br/>
 
-<!-- ✅ WORKING: profile summary cards (different service) -->
 <img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Eng-Mounir&theme=tokyonight"/>
 <img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Eng-Mounir&theme=tokyonight"/>
 <img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Eng-Mounir&theme=tokyonight"/>
@@ -227,7 +219,6 @@
 
 <br/>
 
-<!-- ✅ WORKING: pin cards via fast instance -->
 <a href="https://github.com/Eng-Mounir/Event-Management-System">
   <img width="49%" src="https://github-readme-stats-fast.vercel.app/api/pin/?username=Eng-Mounir&repo=Event-Management-System&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00ffcc&icon_color=00ffcc&text_color=c9d1d9&border_radius=15"/>
 </a>
@@ -250,13 +241,15 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 <!-- ╔══════════════════════════════════╗ -->
-<!-- ║           TROPHIES               ║ -->
+<!-- ║  ✅ TROPHIES — WORKING MIRRORS   ║ -->
 <!-- ╚══════════════════════════════════╝ -->
 ## 🏆 GitHub Trophies
 
 <div align="center">
-<!-- ✅ WORKING: column=4 is reliable -->
-<img width="100%" src="https://github-profile-trophy.vercel.app/?username=Eng-Mounir&theme=tokyonight&no-frame=true&no-bg=true&column=4&margin-w=10&margin-h=10"/>
+
+<!-- Primary mirror -->
+<img width="100%" src="https://github-profile-trophy-winning.vercel.app/?username=Eng-Mounir&theme=tokyonight&no-frame=true&no-bg=true&column=4&margin-w=10&margin-h=10"/>
+
 </div>
 
 <br/>
@@ -278,9 +271,6 @@
 <br/>
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
-<!-- ╔══════════════════════════════════╗ -->
-<!-- ║         DEV QUOTE                ║ -->
-<!-- ╚══════════════════════════════════╝ -->
 ## 💬 Dev Quote of the Day
 
 <div align="center">
@@ -290,9 +280,6 @@
 <br/>
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
-<!-- ╔══════════════════════════════════╗ -->
-<!-- ║        CONNECT WITH ME           ║ -->
-<!-- ╚══════════════════════════════════╝ -->
 ## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="38"/> Connect With Me
 
 <div align="center">
