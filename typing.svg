@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 70" width="860" height="70">
+  <rect width="860" height="70" fill="#0d1117" rx="10"/>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&amp;display=swap');
+
+    @keyframes line0 {
+      0%, 0.000% { clip-path: inset(0 100% 0 0); opacity: 0; }
+      0.010% { opacity: 1; clip-path: inset(0 100% 0 0); }
+      4.380% { opacity: 1; clip-path: inset(0 0% 0 0); }
+      9.025% { opacity: 1; clip-path: inset(0 0% 0 0); }
+      11.214% { opacity: 0; clip-path: inset(0 100% 0 0); }
+      100% { opacity: 0; clip-path: inset(0 100% 0 0); }
+    }
+    @keyframes line1 {
+      0%, 11.214% { clip-path: inset(0 100% 0 0); opacity: 0; }
+      11.224% { opacity: 1; clip-path: inset(0 100% 0 0); }
+      19.177% { opacity: 1; clip-path: inset(0 0% 0 0); }
+      23.822% { opacity: 1; clip-path: inset(0 0% 0 0); }
+      27.804% { opacity: 0; clip-path: inset(0 100% 0 0); }
+      100% { opacity: 0; clip-path: inset(0 100% 0 0); }
+    }
+    @keyframes line2 {
+      0%, 27.804% { clip-path: inset(0 100% 0 0); opacity: 0; }
+      27.814% { opacity: 1; clip-path: inset(0 100% 0 0); }
+      34.771% { opacity: 1; clip-path: inset(0 0% 0 0); }
+      39.416% { opacity: 1; clip-path: inset(0 0% 0 0); }
+      42.900% { opacity: 0; clip-path: inset(0 100% 0 0); }
+      100% { opacity: 0; clip-path: inset(0 100% 0 0); }
+    }
+    @keyframes line3 {
+      0%, 42.900% { clip-path: inset(0 100% 0 0); opacity: 0; }
+      42.910% { opacity: 1; clip-path: inset(0 100% 0 0); }
+      47.279% { opacity: 1; clip-path: inset(0 0% 0 0); }
+      51.924% { opacity: 1; clip-path: inset(0 0% 0 0); }
+      54.114% { opacity: 0; clip-path: inset(0 100% 0 0); }
+      100% { opacity: 0; clip-path: inset(0 100% 0 0); }
+    }
+    @keyframes line4 {
+      0%, 54.114% { clip-path: inset(0 100% 0 0); opacity: 0; }
+      54.124% { opacity: 1; clip-path: inset(0 100% 0 0); }
+      61.281% { opacity: 1; clip-path: inset(0 0% 0 0); }
+      65.926% { opacity: 1; clip-path: inset(0 0% 0 0); }
+      69.509% { opacity: 0; clip-path: inset(0 100% 0 0); }
+      100% { opacity: 0; clip-path: inset(0 100% 0 0); }
+    }
+    @keyframes line5 {
+      0%, 69.509% { clip-path: inset(0 100% 0 0); opacity: 0; }
+      69.519% { opacity: 1; clip-path: inset(0 100% 0 0); }
+      76.476% { opacity: 1; clip-path: inset(0 0% 0 0); }
+      81.121% { opacity: 1; clip-path: inset(0 0% 0 0); }
+      84.605% { opacity: 0; clip-path: inset(0 100% 0 0); }
+      100% { opacity: 0; clip-path: inset(0 100% 0 0); }
+    }
+    @keyframes line6 {
+      0%, 84.605% { clip-path: inset(0 100% 0 0); opacity: 0; }
+      84.615% { opacity: 1; clip-path: inset(0 100% 0 0); }
+      91.772% { opacity: 1; clip-path: inset(0 0% 0 0); }
+      96.417% { opacity: 1; clip-path: inset(0 0% 0 0); }
+      100.000% { opacity: 0; clip-path: inset(0 100% 0 0); }
+      100% { opacity: 0; clip-path: inset(0 100% 0 0); }
+    }
+    text {
+      font-family: JetBrains Mono, Fira Code, monospace;
+      font-size: 26px;
+      font-weight: 700;
+      fill: #00FFCC;
+      dominant-baseline: middle;
+      text-anchor: middle;
+    }
+    .line0 { animation: line0 30.14s linear infinite; }
+    .line1 { animation: line1 30.14s linear infinite; }
+    .line2 { animation: line2 30.14s linear infinite; }
+    .line3 { animation: line3 30.14s linear infinite; }
+    .line4 { animation: line4 30.14s linear infinite; }
+    .line5 { animation: line5 30.14s linear infinite; }
+    .line6 { animation: line6 30.14s linear infinite; }
+  </style>
+  <!-- Cursor blink -->
+  <rect x="50%" y="18" width="3" height="34" fill="#00FFCC" rx="1">
+    <animate attributeName="opacity" values="1;1;0;0" dur="1s" repeatCount="indefinite"/>
+  </rect>
+  <text x="430" y="35" class="line0">🚀 Full Stack Developer</text>
+  <text x="430" y="35" class="line1">⚡ React | Next.js | Node.js | TypeScript</text>
+  <text x="430" y="35" class="line2">🔥 From Database to Pixel-Perfect UI</text>
+  <text x="430" y="35" class="line3">🌍 Alexandria, Egypt 🇪🇬</text>
+  <text x="430" y="35" class="line4">💡 Building Real Products That Matter</text>
+  <text x="430" y="35" class="line5">🎯 Always Learning | Always Shipping</text>
+  <text x="430" y="35" class="line6">✨ Clean Code | Scalable Architecture</text>
+</svg>
