@@ -247,8 +247,8 @@
 
 <div align="center">
 
-<!-- Primary mirror -->
-<img width="100%" src="https://github-profile-trophy-winning.vercel.app/?username=Eng-Mounir&theme=tokyonight&no-frame=true&no-bg=true&column=4&margin-w=10&margin-h=10"/>
+<!-- Try mirrors until one works — keep whichever loads -->
+<img src="https://github-trophies.vercel.app/?username=Eng-Mounir&theme=tokyonight&no-frame=true&no-bg=true&column=4&margin-w=10"/>
 
 </div>
 
