@@ -292,7 +292,7 @@
   <img src="https://img.shields.io/badge/LinkedIn-Let's%20Connect!-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 &nbsp;
-<a href="mailto:your.email@gmail.com">
+<a href="mailto:mouniramir39@gmail.com">
   <img src="https://img.shields.io/badge/Gmail-Email%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 &nbsp;
