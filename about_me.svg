@@ -1,0 +1,214 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 420" width="860" height="420">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap');
+      .bg { fill: #0d1117; }
+      .border { fill: none; stroke: #00ffcc; stroke-width: 1.5; opacity: 0.6; }
+      .border-glow { fill: none; stroke: #00ffcc; stroke-width: 3; opacity: 0.15; filter: url(#glow); }
+      .title { font-family: "JetBrains Mono", monospace; font-size: 13px; font-weight: 700; fill: #00ffcc; }
+      .key { font-family: "JetBrains Mono", monospace; font-size: 12px; fill: #7ee787; }
+      .val { font-family: "JetBrains Mono", monospace; font-size: 12px; fill: #79c0ff; }
+      .str { font-family: "JetBrains Mono", monospace; font-size: 12px; fill: #a5d6ff; }
+      .punc { font-family: "JetBrains Mono", monospace; font-size: 12px; fill: #8b949e; }
+      .comment { font-family: "JetBrains Mono", monospace; font-size: 12px; fill: #3d444d; font-style: italic; }
+      .cursor { fill: #00ffcc; }
+      .dot-green { fill: #3fb950; }
+      .dot-yellow { fill: #d29922; }
+      .dot-red { fill: #f85149; }
+      .tab-title { font-family: "JetBrains Mono", monospace; font-size: 11px; fill: #8b949e; }
+      .tab-active { font-family: "JetBrains Mono", monospace; font-size: 11px; fill: #e6edf3; }
+      .line-num { font-family: "JetBrains Mono", monospace; font-size: 11px; fill: #3d444d; text-anchor: end; }
+      @keyframes blink { 0%,49% { opacity:1; } 50%,100% { opacity:0; } }
+      @keyframes fadeInUp { from { opacity:0; transform: translateY(8px); } to { opacity:1; transform: translateY(0); } }
+      @keyframes scanline { 0% { transform: translateY(-10px); opacity: 0.03; } 100% { transform: translateY(420px); opacity: 0.03; } }
+      @keyframes borderPulse { 0%,100% { opacity:0.4; } 50% { opacity:0.9; } }
+      .cursor { animation: blink 1s step-end infinite; }
+      .l1 { animation: fadeInUp 0.4s ease 0.1s both; }
+      .l2 { animation: fadeInUp 0.4s ease 0.25s both; }
+      .l3 { animation: fadeInUp 0.4s ease 0.4s both; }
+      .l4 { animation: fadeInUp 0.4s ease 0.55s both; }
+      .l5 { animation: fadeInUp 0.4s ease 0.7s both; }
+      .l6 { animation: fadeInUp 0.4s ease 0.85s both; }
+      .l7 { animation: fadeInUp 0.4s ease 1.0s both; }
+      .l8 { animation: fadeInUp 0.4s ease 1.15s both; }
+      .l9 { animation: fadeInUp 0.4s ease 1.30s both; }
+      .l10 { animation: fadeInUp 0.4s ease 1.45s both; }
+      .l11 { animation: fadeInUp 0.4s ease 1.60s both; }
+      .l12 { animation: fadeInUp 0.4s ease 1.75s both; }
+      .l13 { animation: fadeInUp 0.4s ease 1.90s both; }
+      .l14 { animation: fadeInUp 0.4s ease 2.05s both; }
+      .l15 { animation: fadeInUp 0.4s ease 2.20s both; }
+      .l16 { animation: fadeInUp 0.4s ease 2.35s both; }
+      .l17 { animation: fadeInUp 0.4s ease 2.50s both; }
+      .l18 { animation: fadeInUp 0.4s ease 2.65s both; }
+      .border-anim { animation: borderPulse 3s ease-in-out infinite; }
+    </style>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="860" height="420" rx="12" class="bg"/>
+
+  <!-- Glow border -->
+  <rect x="1" y="1" width="858" height="418" rx="12" class="border-glow border-anim"/>
+  <rect x="2" y="2" width="856" height="416" rx="11" class="border"/>
+
+  <!-- Title bar -->
+  <rect x="2" y="2" width="856" height="36" rx="11" fill="#161b22"/>
+  <rect x="2" y="26" width="856" height="12" fill="#161b22"/>
+
+  <!-- Traffic lights -->
+  <circle cx="24" cy="20" r="6" class="dot-red"/>
+  <circle cx="44" cy="20" r="6" class="dot-yellow"/>
+  <circle cx="64" cy="20" r="6" class="dot-green"/>
+
+  <!-- Tab -->
+  <rect x="90" y="8" width="140" height="24" rx="4" fill="#0d1117"/>
+  <text x="102" y="24" class="tab-active">mounir.ts</text>
+  <text x="250" y="24" class="tab-title">  about.json</text>
+  <text x="360" y="24" class="tab-title">  skills.ts</text>
+
+  <!-- Scanline effect -->
+  <rect x="2" y="38" width="856" height="2" fill="#00ffcc" opacity="0.03">
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,390" dur="4s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Line numbers bar -->
+  <rect x="2" y="38" width="42" height="380" fill="#0d1117" opacity="0.5"/>
+
+  <!-- CODE CONTENT — line by line with stagger animations -->
+  <!-- Line 1 -->
+  <g class="l1">
+    <text x="38" y="68" class="line-num">1</text>
+    <text x="56" y="68" class="comment">// ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</text>
+  </g>
+  <!-- Line 2 -->
+  <g class="l2">
+    <text x="38" y="88" class="line-num">2</text>
+    <text x="56" y="88" class="comment">// 👨‍💻  Mounir Amir — Full Stack Developer</text>
+  </g>
+  <!-- Line 3 -->
+  <g class="l3">
+    <text x="38" y="108" class="line-num">3</text>
+    <text x="56" y="108" class="comment">// ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</text>
+  </g>
+  <!-- Line 4 blank -->
+  <g class="l4">
+    <text x="38" y="128" class="line-num">4</text>
+  </g>
+  <!-- Line 5 -->
+  <g class="l5">
+    <text x="38" y="148" class="line-num">5</text>
+    <text x="56" y="148" class="key">const </text>
+    <text x="104" y="148" class="val">mounir</text>
+    <text x="166" y="148" class="punc">: </text>
+    <text x="178" y="148" class="title">Developer</text>
+    <text x="248" y="148" class="punc"> = {</text>
+  </g>
+  <!-- Line 6 -->
+  <g class="l6">
+    <text x="38" y="168" class="line-num">6</text>
+    <text x="72" y="168" class="key">  name</text>
+    <text x="118" y="168" class="punc">:     </text>
+    <text x="154" y="168" class="str">"Mounir Amir"</text>
+    <text x="282" y="168" class="punc">,</text>
+  </g>
+  <!-- Line 7 -->
+  <g class="l7">
+    <text x="38" y="188" class="line-num">7</text>
+    <text x="72" y="188" class="key">  location</text>
+    <text x="148" y="188" class="punc">: </text>
+    <text x="160" y="188" class="str">"Alexandria, Egypt 🇪🇬"</text>
+    <text x="368" y="188" class="punc">,</text>
+  </g>
+  <!-- Line 8 -->
+  <g class="l8">
+    <text x="38" y="208" class="line-num">8</text>
+    <text x="72" y="208" class="key">  role</text>
+    <text x="118" y="208" class="punc">:     </text>
+    <text x="154" y="208" class="str">"Full Stack Developer"</text>
+    <text x="358" y="208" class="punc">,</text>
+  </g>
+  <!-- Line 9 -->
+  <g class="l9">
+    <text x="38" y="228" class="line-num">9</text>
+    <text x="72" y="228" class="key">  stack</text>
+    <text x="126" y="228" class="punc">:    </text>
+    <text x="154" y="228" class="punc">[</text>
+    <text x="162" y="228" class="str">"React"</text>
+    <text x="218" y="228" class="punc">, </text>
+    <text x="230" y="228" class="str">"Next.js"</text>
+    <text x="298" y="228" class="punc">, </text>
+    <text x="310" y="228" class="str">"Node.js"</text>
+    <text x="378" y="228" class="punc">, </text>
+    <text x="390" y="228" class="str">"TypeScript"</text>
+    <text x="474" y="228" class="punc">],</text>
+  </g>
+  <!-- Line 10 -->
+  <g class="l10">
+    <text x="38" y="248" class="line-num">10</text>
+    <text x="72" y="248" class="key">  database</text>
+    <text x="148" y="248" class="punc">: </text>
+    <text x="160" y="248" class="punc">[</text>
+    <text x="168" y="248" class="str">"MySQL"</text>
+    <text x="224" y="248" class="punc">, </text>
+    <text x="236" y="248" class="str">"MongoDB"</text>
+    <text x="308" y="248" class="punc">],</text>
+  </g>
+  <!-- Line 11 -->
+  <g class="l11">
+    <text x="38" y="268" class="line-num">11</text>
+    <text x="72" y="268" class="key">  learning</text>
+    <text x="148" y="268" class="punc">: </text>
+    <text x="160" y="268" class="str">"System Design &amp; Architecture"</text>
+    <text x="440" y="268" class="punc">,</text>
+  </g>
+  <!-- Line 12 -->
+  <g class="l12">
+    <text x="38" y="288" class="line-num">12</text>
+    <text x="72" y="288" class="key">  goal</text>
+    <text x="118" y="288" class="punc">:     </text>
+    <text x="154" y="288" class="str">"Senior Full Stack Developer 🎯"</text>
+    <text x="434" y="288" class="punc">,</text>
+  </g>
+  <!-- Line 13 -->
+  <g class="l13">
+    <text x="38" y="308" class="line-num">13</text>
+    <text x="72" y="308" class="key">  available</text>
+    <text x="156" y="308" class="punc">: </text>
+    <text x="168" y="308" class="val">true</text>
+    <text x="196" y="308" class="punc">,</text>
+    <text x="210" y="308" class="comment">   // 🟢 hire me!</text>
+  </g>
+  <!-- Line 14 -->
+  <g class="l14">
+    <text x="38" y="328" class="line-num">14</text>
+    <text x="72" y="328" class="key">  funFact</text>
+    <text x="136" y="328" class="punc">:  </text>
+    <text x="154" y="328" class="str">"I console.log() everything 😅"</text>
+    <text x="430" y="328" class="punc">,</text>
+  </g>
+  <!-- Line 15 closing brace -->
+  <g class="l15">
+    <text x="38" y="348" class="line-num">15</text>
+    <text x="56" y="348" class="punc">};</text>
+  </g>
+  <!-- Line 16 blank -->
+  <g class="l16">
+    <text x="38" y="368" class="line-num">16</text>
+  </g>
+  <!-- Line 17 output -->
+  <g class="l17">
+    <text x="38" y="388" class="line-num">17</text>
+    <text x="56" y="388" class="comment">// ✅ mounir.build() → production ready</text>
+  </g>
+  <!-- Line 18 cursor -->
+  <g class="l18">
+    <text x="38" y="408" class="line-num">18</text>
+    <text x="56" y="408" class="title">▶</text>
+    <rect x="72" y="395" width="9" height="16" class="cursor" rx="1"/>
+  </g>
+</svg>
