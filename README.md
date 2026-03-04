@@ -295,10 +295,6 @@ Copy
 
 <br/><br/>
 
-<!-- ✅ NEW CYBERPUNK FOOTER matching the header -->
-<img src="https://raw.githubusercontent.com/Eng-Mounir/Eng-Mounir/main/hero_header.svg" width="100%" alt="footer"/>
-
-</div>
 
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!--     Crafted with ❤️ by Mounir Amir | Alexandria, Egypt     -->
