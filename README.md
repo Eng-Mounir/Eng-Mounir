@@ -1,32 +1,36 @@
+
+Readme · MD
+Copy
+
 <!-- ██████████████████████████████████████████████████████████████ -->
 <!--          MOUNIR AMIR — ULTIMATE GITHUB PROFILE README         -->
 <!-- ██████████████████████████████████████████████████████████████ -->
 
 <!-- ╔══════════════════════════════════╗ -->
-<!-- ║    ✅ NEW CYBERPUNK HERO HEADER  ║ -->
+<!-- ║     ✅ ORIGINAL HERO HEADER      ║ -->
 <!-- ╚══════════════════════════════════╝ -->
 <div align="center">
 
-<!-- Upload hero_header.svg to your repo root, then this displays it -->
-<img width="100%" src="https://raw.githubusercontent.com/Eng-Mounir/Eng-Mounir/main/hero_header.svg" alt="Mounir Amir — Full Stack Developer"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=0,2,2,5,30&height=300&section=header&text=Mounir%20Amir&fontSize=90&fontColor=00ffcc&fontAlignY=40&desc=⚡%20Full%20Stack%20Developer%20%7C%20Alexandria%2C%20Egypt%20🇪🇬&descSize=26&descAlignY=62&descColor=ffffff&animation=twinkling&stroke=00ffcc&strokeWidth=2"/>
 
 </div>
 
 <!-- ╔══════════════════════════════════╗ -->
-<!-- ║     DEVELOPER CODING SCENE       ║ -->
+<!-- ║  ✅ SUPER ANIMATED DEV SCENE     ║ -->
 <!-- ╚══════════════════════════════════╝ -->
 <div align="center">
 
-<img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="400"/>
+<!-- Upload dev_scene.svg to your repo root -->
+<img src="https://raw.githubusercontent.com/Eng-Mounir/Eng-Mounir/main/dev_scene.svg" width="800" alt="Mounir coding"/>
 
 <br/><br/>
 
-<!-- ✅ SELF-HOSTED TYPING SVG — upload typing_hero.svg to your repo root -->
+<!-- ✅ SELF-HOSTED TYPING SVG -->
 <img src="https://raw.githubusercontent.com/Eng-Mounir/Eng-Mounir/main/typing_hero.svg" width="860" alt="Mounir Amir — Full Stack Developer"/>
 
 <br/><br/>
 
-<!-- ✅ SELF-HOSTED CODE TYPING SVG — upload typing_code.svg to your repo root -->
+<!-- ✅ SELF-HOSTED CODE TYPING SVG -->
 <img src="https://raw.githubusercontent.com/Eng-Mounir/Eng-Mounir/main/typing_code.svg" width="680" alt="code typing"/>
 
 <br/><br/>
