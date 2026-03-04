@@ -3,11 +3,12 @@
 <!-- ██████████████████████████████████████████████████████████████ -->
 
 <!-- ╔══════════════════════════════════╗ -->
-<!-- ║           HERO HEADER            ║ -->
+<!-- ║    ✅ NEW CYBERPUNK HERO HEADER  ║ -->
 <!-- ╚══════════════════════════════════╝ -->
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=0,2,2,5,30&height=300&section=header&text=Mounir%20Amir&fontSize=90&fontColor=00ffcc&fontAlignY=40&desc=⚡%20Full%20Stack%20Developer%20%7C%20Alexandria%2C%20Egypt%20🇪🇬&descSize=26&descAlignY=62&descColor=ffffff&animation=twinkling&stroke=00ffcc&strokeWidth=2"/>
+<!-- Upload hero_header.svg to your repo root, then this displays it -->
+<img width="100%" src="https://raw.githubusercontent.com/Eng-Mounir/Eng-Mounir/main/hero_header.svg" alt="Mounir Amir — Full Stack Developer"/>
 
 </div>
 
@@ -72,7 +73,6 @@
 
 <div align="center">
 
-<!-- ✅ SELF-HOSTED — upload about_me.svg to your repo root -->
 <img src="https://raw.githubusercontent.com/Eng-Mounir/Eng-Mounir/main/about_me.svg" width="100%" alt="About Mounir"/>
 
 </div>
@@ -190,9 +190,6 @@
 <br/>
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
-<!-- ╔══════════════════════════════════╗ -->
-<!-- ║      CONTRIBUTION GRAPH          ║ -->
-<!-- ╚══════════════════════════════════╝ -->
 ## 📈 Contribution Activity
 
 <div align="center">
@@ -202,9 +199,6 @@
 <br/>
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
-<!-- ╔══════════════════════════════════╗ -->
-<!-- ║       FEATURED PROJECTS          ║ -->
-<!-- ╚══════════════════════════════════╝ -->
 ## <img src="https://media.giphy.com/media/iDaCeaKrHhUI1I8e2b/giphy.gif" width="35"/> Featured Projects
 
 <div align="center">
@@ -240,24 +234,15 @@
 <br/>
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
-<!-- ╔══════════════════════════════════╗ -->
-<!-- ║  ✅ TROPHIES — WORKING MIRRORS   ║ -->
-<!-- ╚══════════════════════════════════╝ -->
 ## 🏆 GitHub Trophies
 
 <div align="center">
-
-<!-- Try mirrors until one works — keep whichever loads -->
-<img src="https://github-trophies.vercel.app/?username=Eng-Mounir&theme=tokyonight&no-frame=true&no-bg=true&column=4&margin-w=10"/>
-
+<img width="100%" src="https://github-trophies.vercel.app/?username=Eng-Mounir&theme=tokyonight&no-frame=true&no-bg=true&column=4&margin-w=10"/>
 </div>
 
 <br/>
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
-<!-- ╔══════════════════════════════════╗ -->
-<!-- ║         SNAKE ANIMATION          ║ -->
-<!-- ╚══════════════════════════════════╝ -->
 ## 🐍 Snake Devouring My Contributions
 
 <div align="center">
@@ -306,7 +291,8 @@
 
 <br/><br/>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=160&section=footer&text=Thanks%20for%20Visiting!%20Drop%20a%20⭐&fontSize=28&fontColor=00ffcc&fontAlignY=65&animation=twinkling"/>
+<!-- ✅ NEW CYBERPUNK FOOTER matching the header -->
+<img src="https://raw.githubusercontent.com/Eng-Mounir/Eng-Mounir/main/hero_header.svg" width="100%" alt="footer"/>
 
 </div>
 
