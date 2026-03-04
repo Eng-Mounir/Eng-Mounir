@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 44" width="680" height="44">
+  <rect width="680" height="44" fill="#0D1117" rx="6"/>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@600&amp;display=swap');
+    text{font-family:"Fira Code",monospace;font-size:15px;font-weight:600;fill:#00FF41;dominant-baseline:middle;text-anchor:start}
+    
+    @keyframes c0{
+      0%,0.0000%{clip-path:inset(0 100% 0 0);opacity:0}
+      0.0000%{opacity:1;clip-path:inset(0 100% 0 0)}
+      6.9555%{opacity:1;clip-path:inset(0 0% 0 0)}
+      11.5314%{opacity:1;clip-path:inset(0 0% 0 0)}
+      15.1922%{opacity:0;clip-path:inset(0 100% 0 0)}
+      100%{opacity:0}
+    }
+    @keyframes c1{
+      0%,15.1922%{clip-path:inset(0 100% 0 0);opacity:0}
+      15.1922%{opacity:1;clip-path:inset(0 100% 0 0)}
+      21.7612%{opacity:1;clip-path:inset(0 0% 0 0)}
+      26.3372%{opacity:1;clip-path:inset(0 0% 0 0)}
+      29.7946%{opacity:0;clip-path:inset(0 100% 0 0)}
+      100%{opacity:0}
+    }
+    @keyframes c2{
+      0%,29.7946%{clip-path:inset(0 100% 0 0);opacity:0}
+      29.7946%{opacity:1;clip-path:inset(0 100% 0 0)}
+      38.2957%{opacity:1;clip-path:inset(0 0% 0 0)}
+      42.8717%{opacity:1;clip-path:inset(0 0% 0 0)}
+      47.3459%{opacity:0;clip-path:inset(0 100% 0 0)}
+      100%{opacity:0}
+    }
+    @keyframes c3{
+      0%,47.3459%{clip-path:inset(0 100% 0 0);opacity:0}
+      47.3459%{opacity:1;clip-path:inset(0 100% 0 0)}
+      55.6539%{opacity:1;clip-path:inset(0 0% 0 0)}
+      60.2298%{opacity:1;clip-path:inset(0 0% 0 0)}
+      64.6024%{opacity:0;clip-path:inset(0 100% 0 0)}
+      100%{opacity:0}
+    }
+    @keyframes c4{
+      0%,64.6024%{clip-path:inset(0 100% 0 0);opacity:0}
+      64.6024%{opacity:1;clip-path:inset(0 100% 0 0)}
+      73.4899%{opacity:1;clip-path:inset(0 0% 0 0)}
+      78.0659%{opacity:1;clip-path:inset(0 0% 0 0)}
+      82.7435%{opacity:0;clip-path:inset(0 100% 0 0)}
+      100%{opacity:0}
+    }
+    @keyframes c5{
+      0%,82.7435%{clip-path:inset(0 100% 0 0);opacity:0}
+      82.7435%{opacity:1;clip-path:inset(0 100% 0 0)}
+      91.0515%{opacity:1;clip-path:inset(0 0% 0 0)}
+      95.6274%{opacity:1;clip-path:inset(0 0% 0 0)}
+      100.0000%{opacity:0;clip-path:inset(0 100% 0 0)}
+      100%{opacity:0}
+    }
+    .c0{animation:c0 19.67s linear infinite;}
+    .c1{animation:c1 19.67s linear infinite;}
+    .c2{animation:c2 19.67s linear infinite;}
+    .c3{animation:c3 19.67s linear infinite;}
+    .c4{animation:c4 19.67s linear infinite;}
+    .c5{animation:c5 19.67s linear infinite;}
+  </style>
+  <text x="24" y="23" class="c0">→  npx create-next-app my-project  ✅</text>
+  <text x="24" y="23" class="c1">→  npm install express mongoose  ✅</text>
+  <text x="24" y="23" class="c2">→  git commit -m 'feat: ship new feature'  ✅</text>
+  <text x="24" y="23" class="c3">→  const [state, setState] = useState(null)</text>
+  <text x="24" y="23" class="c4">→  app.listen(3000, () => '🚀 Server Running!')</text>
+  <text x="24" y="23" class="c5">→  console.log('Hello from Alexandria! 🇪🇬')</text>
+</svg>
